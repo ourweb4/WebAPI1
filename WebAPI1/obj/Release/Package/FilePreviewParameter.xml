@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="stores.ourweb.net" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^E:\\vcprojects\\WebAPI1\\WebAPI1\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^E:\\vcprojects\\WebAPI1\\WebAPI1\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="Model1-Web.config Connection String" description="Model1 Connection String used in web.config by the application to access the database." value="data source=(LocalDb)\MSSQLLocalDB;initial catalog=Stores;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="E:\\vcprojects\\WebAPI1\\WebAPI1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Model1']/@connectionString" />
+  </parameter>
+</parameters>
