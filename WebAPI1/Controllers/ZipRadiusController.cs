@@ -46,7 +46,8 @@ namespace WebAPI1.Controllers
         /// <param name="zip">The zip.</param>
         /// <param name="Distance">The distance.</param>
         /// <returns>System.Threading.Tasks.Task&lt;IList&lt;ZipCodes&gt;&gt;.</returns>
-        public async System.Threading.Tasks.Task<IList<ZipCodes>> GetZipCodesAsync(string zip, int Distance = 5)
+        [HttpGet]
+        public async System.Threading.Tasks.Task<IList<ZipCodes>> GetZipCodesAsync(string zip, int Distance)
         {
              HttpClient client = new HttpClient();
             Zips zips = new Zips();
@@ -60,5 +61,23 @@ namespace WebAPI1.Controllers
 
             return zips.ZipCodes;
         }
+
+        [HttpGet]
+        public async System.Threading.Tasks.Task<IList<ZipCodes>> GetZipCodesAsync(string zip)
+        {
+            HttpClient client = new HttpClient();
+            int Distance = 5;
+            Zips zips = new Zips();
+
+            string geturl = ZIPURL + zip + "/" + Distance.ToString() + "/miles";
+            HttpResponseMessage response = await client.GetAsync(geturl);
+            if (response.IsSuccessStatusCode)
+            {
+                zips = await response.Content.ReadAsAsync<Zips>();
+            }
+
+            return zips.ZipCodes;
+        }
+
     }
 }

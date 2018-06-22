@@ -67,9 +67,15 @@ E:\vcprojects\WebAPI1\WebAPI1\bin\Microsoft.AI.DependencyCollector.xml
 E:\vcprojects\WebAPI1\WebAPI1\bin\Microsoft.AI.ServerTelemetryChannel.xml
 E:\vcprojects\WebAPI1\WebAPI1\bin\Microsoft.AI.WindowsServer.xml
 E:\vcprojects\WebAPI1\WebAPI1\bin\Microsoft.AI.Web.xml
-E:\vcprojects\WebAPI1\WebAPI1\obj\Debug\WebAPI1.csprojResolveAssemblyReference.cache
 E:\vcprojects\WebAPI1\WebAPI1\obj\Debug\WebAPI1.csproj.CoreCompileInputs.cache
 E:\vcprojects\WebAPI1\WebAPI1\obj\Debug\WebAPI1.dll
 E:\vcprojects\WebAPI1\WebAPI1\obj\Debug\WebAPI1.pdb
 E:\vcprojects\WebAPI1\WebAPI1\obj\Debug\WebAPI1.Migrations.init.resources
 E:\vcprojects\WebAPI1\WebAPI1\obj\Debug\WebAPI1.csproj.GenerateResource.Cache
+E:\vcprojects\WebAPI1\WebAPI1\bin\GoogleMapsAPI.NET.dll
+E:\vcprojects\WebAPI1\WebAPI1\bin\GoogleMapsAPI.NET.pdb
+E:\vcprojects\WebAPI1\WebAPI1\bin\GoogleMapsAPI.NET.xml
+E:\vcprojects\WebAPI1\WebAPI1\obj\Debug\WebAPI1.csprojAssemblyReference.cache
+E:\vcprojects\WebAPI1\WebAPI1\obj\Debug\WebAPI1.Migrations.geo.resources
+E:\vcprojects\WebAPI1\WebAPI1\obj\Debug\WebAPI1.Migrations.geo2.resources
+E:\vcprojects\WebAPI1\WebAPI1\obj\Debug\WebAPI1.csproj.CopyComplete
