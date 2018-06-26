@@ -207,8 +207,10 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="AuthFilter.cs" />
+    <Compile Include="Controllers\GetLocController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MasterController.cs" />
+    <Compile Include="Controllers\PlacesController.cs" />
     <Compile Include="Controllers\StoresController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Controllers\ZipController.cs" />
@@ -230,6 +232,7 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Model1.cs" />
+    <Compile Include="Models\Places.cs" />
     <Compile Include="Models\Zips.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
